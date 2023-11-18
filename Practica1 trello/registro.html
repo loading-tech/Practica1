@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro-style.css">
+</head>
+<body>
+    <div class="container-form">
+        <form autocomplete="on">
+            <label for="usuario">Usuario</label> <br>
+            <input type="text" id="usuario" name="usuario" minlength="5" max="15" required> <br>
+        
+            <label for="mail">Email</label> <br>
+            <input type="email" id="mail" name="mail" maxlength="35" minlength="15"  required> <br>
+            
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña" minlength="7" maxlength="15" required>
+
+            <label for="confirmar">Confirmar contraseña</label>
+            <input type="password" name="confirmar" id="confirmar" minlength="7" maxlength="15" required>
+
+            <input type="submit" value="Registrarse" class="button"> <br>
+
+        <div class="conteiner-footer">
+                <a href="index.html">¿Quieres contactarnos?</a>
+                <!-- <p>a</p> -->
+        </div>
+    </div>
+
+</body>
+</html>

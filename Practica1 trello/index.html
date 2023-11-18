@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios 6-11</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="container-form">
+        
+        <form autocomplete="off">
+            <label for="nombre">Nombre</label> <br>
+            <input type="text" id="nombre" name="nombre" minlength="5" max="15"> <br>
+        
+            <label for="mail">Email</label> <br>
+            <input type="email" id="mail" name="mail" maxlength="35" minlength="15" multiple required> <br>
+            
+            <label for="asunto">Asunto</label> <br>
+            <input type="text" id="asunto" name="asunto" maxlength="40"> <br>
+
+
+            <label for="mensaje">Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="50" rows="10" maxlength="50"></textarea> <br>
+            <input type="submit" value="Enviar" class="button"> <br>
+            <a href="registro.html" class="registro">¿No tienes una cuenta?</a>
+        </form>
+        
+    </div>
+</body>
+</html>
